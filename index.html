@@ -35,9 +35,9 @@
 <div class="container" ng-controller="controller1">
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" ng-repeat="produto in produtos">
-            <div class="panel">
+            <div class="thumbnail">
                 <img ng-src="{{produto.imagem}}" width="200px">
-                <p><span>{{produto.nome}}</span></p>
+                <h4>{{produto.nome}}</h4>
                 <p><span>Preço: {{produto.preco | currency}}</span>
                     <button class="btn btn-default">Detalhes</button>
                 </p>
