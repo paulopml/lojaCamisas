@@ -1,61 +1,73 @@
 /**
  * Created by pauloml on 19/07/2015.
  */
-var app = angular.module('app1',[]);
+var app = angular.module('filtro',[]);
 
-app.controller('controller1', function($scope){
-    $scope.produtos = meuProdutosHome;
-})
-
-var meuProdutosHome = [{
-    nome: 'Polo Lisa lilas',
-    preco: 35.00,
-    imagem : 'img/polo/3_200.png'
-},{
-    nome: 'Polo Listada',
-    preco: 35.00,
-    imagem : 'img/polo/6_200.png'
-},{
-    nome: 'Polo Lisa Cinza',
-    preco: 35.00,
-    imagem : 'img/polo/9_200.png'
-},{
-    nome: 'Polo Listada',
-    preco: 35.00,
-    imagem : 'img/polo/12_200.png'
-},{
-    nome: 'Camisa social',
-    preco: 49.00,
-    imagem : 'img/social/15_200.png'
-},{
-    nome: 'Camisa social',
-    preco: 49.00,
-    imagem : 'img/social/17_200.png'
-},{
-    nome: 'Camisa social',
-    preco: 49.00,
-    imagem : 'img/social/21_200.png'
-},{
-    nome: 'Camisa social',
-    preco: 49.00,
-    imagem : 'img/social/24_200.png'
-},{
-    nome: 'Camisa T-shirt',
-    preco: 19.00,
-    imagem : 'img/t-shirt/27_200.png'
-},{
-    nome: 'Camisa T-shirt',
-    preco: 19.00,
-    imagem : 'img/t-shirt/30_200.png'
-},{
-    nome: 'Camisa T-shirt',
-    preco: 19.00,
-    imagem : 'img/t-shirt/33_200.png'
-},{
-    nome: 'Camisa T-shirt',
-    preco: 19.00,
-    imagem : 'img/t-shirt/36_200.png'
-}];
+app.controller('controller1', ['$scope', function($scope) {
+    $scope.filtro = {categoria: ''};
+    $scope.produtos = [{
+        nome: 'Polo Lisa lilas',
+        categoria: 'Polo',
+        preco: 35.00,
+        imagem: 'img/polo/3_200.png'
+    }, {
+        nome: 'Polo Listada',
+        categoria: 'Polo',
+        preco: 35.00,
+        imagem: 'img/polo/6_200.png'
+    }, {
+        nome: 'Polo Lisa Cinza',
+        categoria: 'Polo',
+        preco: 35.00,
+        imagem: 'img/polo/9_200.png'
+    }, {
+        nome: 'Polo Listada',
+        categoria: 'Polo',
+        preco: 35.00,
+        imagem: 'img/polo/12_200.png'
+    }, {
+        nome: 'Camisa social',
+        categoria: 'social',
+        preco: 49.00,
+        imagem: 'img/social/15_200.png'
+    }, {
+        nome: 'Camisa social',
+        categoria: 'social',
+        preco: 49.00,
+        imagem: 'img/social/17_200.png'
+    }, {
+        nome: 'Camisa social',
+        categoria: 'social',
+        preco: 49.00,
+        imagem: 'img/social/21_200.png'
+    }, {
+        nome: 'Camisa social',
+        categoria: 'social',
+        preco: 49.00,
+        imagem: 'img/social/24_200.png'
+    }, {
+        nome: 'Camisa T-shirt',
+        categoria: 'T-shirt',
+        preco: 19.00,
+        imagem: 'img/t-shirt/27_200.png'
+    }, {
+        nome: 'Camisa T-shirt',
+        categoria: 'T-shirt',
+        preco: 19.00,
+        imagem: 'img/t-shirt/30_200.png'
+    }, {
+        nome: 'Camisa T-shirt',
+        categoria: 'T-shirt',
+        preco: 19.00,
+        imagem: 'img/t-shirt/33_200.png'
+    }, {
+        nome: 'Camisa T-shirt',
+        categoria: 'T-shirt',
+        preco: 19.00,
+        imagem: 'img/t-shirt/36_200.png'
+    },
+    ];
+}]);
 
 var ProdutosDetalhe = [{
     nome: 'Polo Lisa lilas',
