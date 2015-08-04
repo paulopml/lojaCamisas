@@ -1,0 +1,14 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" ng-repeat="camisa in camisas | filter:search">
+            <div class="thumbnail">
+                <img ng-src="{{camisa.imagem}}">
+                <h4>{{camisa.nome}}</h4>
+                <p>Categoria: {{camisa.categoria}}</p>
+                <p><span>Preço: {{camisa.preco | currency}}</span>
+                    <a href="#/camisa/{{camisa.codigo}}" class="btn btn-default">Detalhes</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

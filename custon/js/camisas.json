@@ -1,0 +1,161 @@
+estoqueCamisas = [{
+"codigo": 0,
+"nome": 'Polo Lisa',
+"categoria": 'Polo',
+"preco": 35.00,
+"cor": 'Lilas',
+"estoque": 5,
+"descricao": 'A camisa polo composta por tecido de poliéster uma camisa adequada para quem aprecia o conforto e um toque macio. ' +
+'Corte confortável e moderno, praticidade (fácil de lavar e passar), alta durabilidade e fácil transpiração.',
+"dicas": 'Use com calça jeans, de sarja ou bermuda.',
+"comprimento": 'Comprimento de Mangas Curtas',
+"imagem": 'img/polo/3_200.png',
+"imagemDetalhe":[{"imgCod":"01","img":"img/polo/1.jpg"},{"imgCod":"02","img":"img/polo/2.jpg"},{"imgCod":"03","img":"img/polo/3.jpg"}]
+},{
+"codigo": 1,
+nome: 'Polo Listada',
+"categoria": 'Polo',
+preco: 35.00,
+cor: 'branco e rosa',
+"estoque": 7,
+descricao: 'A camisa polo composta por tecido de poliéster uma camisa adequada para quem aprecia o conforto e um toque macio. ' +
+'Corte confortável e moderno, praticidade (fácil de lavar e passar), alta durabilidade e fácil transpiração.',
+dicas: 'Use com calça jeans, de sarja ou bermuda.',
+comprimento: 'Comprimento de Mangas Curtas',
+imagem : 'img/polo/6_200.png',
+"imagemDetalhe":[{"imgCod":"04","img":"img/polo/4.jpg"},{"imgCod":"05","img":"img/polo/5.jpg"},{"imgCod":"06","img":"img/polo/6.jpg"}]
+},{
+"codigo": 2,
+nome: 'Polo Lisa',
+"categoria": 'Polo',
+preco: 35.00,
+cor: 'Cinza',
+"estoque": 2,
+descricao: 'A camisa polo composta por tecido de poliéster uma camisa adequada para quem aprecia o conforto e um toque macio. ' +
+'Corte confortável e moderno, praticidade (fácil de lavar e passar), alta durabilidade e fácil transpiração.',
+dicas: 'Use com calça jeans, de sarja ou bermuda.',
+comprimento: 'Comprimento de Mangas Curtas',
+imagem : 'img/polo/9_200.png',
+"imagemDetalhe":[{"imgCod":"07","img":"img/polo/7.jpg"},{"imgCod":"08","img":"img/polo/8.jpg"},{"imgCod":"09","img":"img/polo/9.jpg"}]
+},{
+"codigo": 3,
+nome: 'Polo Listada',
+"categoria": 'Polo',
+preco: 35.00,
+cor: 'branco e cinza',
+"estoque": 8,
+descricao: 'A camisa polo composta por tecido de poliéster uma camisa adequada para quem aprecia o conforto e um toque macio. ' +
+'Corte confortável e moderno, praticidade (fácil de lavar e passar), alta durabilidade e fácil transpiração.',
+dicas: 'Use com calça jeans, de sarja ou bermuda.',
+comprimento: 'Comprimento de Mangas Curtas',
+imagem : 'img/polo/12_200.png',
+"imagemDetalhe":[{"imgCod":"10","img":"img/polo/10.jpg"},{"imgCod":"11","img":"img/polo/11.jpg"},{"imgCod":"12","img":"img/polo/12.jpg"}]
+},{
+"codigo": 4,
+nome: 'Camisa social',
+"categoria": 'Social',
+preco: 49.00,
+cor: 'branco e azul',
+"estoque": 9,
+descricao: 'A camisa possui fio tinto e é composta por tecido misto. O fio tinto é aquele que recebe o tingimento, antes mesmo de ser tecido, o que garante maior durabilidade a peça. ' +
+'Uma de sua vantagens é o corte confortável e moderno, várias possibilidades de combinações e alta durabilidade.',
+dicas: 'Use com calças sociais ou de sarja.',
+comprimento: 'Comprimento de Mangas longas',
+imagem : 'img/social/15_200.png',
+"imagemDetalhe":[{"imgCod":"13","img":"img/social/13.jpg"},{"imgCod":"14","img":"img/social/14.jpg"},{"imgCod":"15","img":"img/social/15.jpg"}]
+},{
+"codigo": 5,
+nome: 'Camisa social',
+"categoria": 'Social',
+preco: 49.00,
+cor: 'branco, cinza e azul',
+"estoque": 4,
+descricao: 'A camisa possui fio tinto e é composta por tecido misto. O fio tinto é aquele que recebe o tingimento, antes mesmo de ser tecido, o que garante maior durabilidade a peça. ' +
+'Uma de sua vantagens é o corte confortável e moderno, várias possibilidades de combinações e alta durabilidade.',
+dicas: 'Use com calças sociais ou de sarja.',
+comprimento: 'Comprimento de Mangas longas',
+imagem : 'img/social/17_200.png',
+"imagemDetalhe":[{"imgCod":"16","img":"img/social/16.jpg"},{"imgCod":"17","img":"img/social/17.jpg"},{"imgCod":"18","img":"img/social/18.jpg"}]
+},{
+"codigo": 6,
+nome: 'Camisa social',
+"categoria": 'Social',
+preco: 49.00,
+cor: 'azul claro',
+"estoque": 8,
+descricao: 'A camisa possui fio tinto e é composta por tecido misto. O fio tinto é aquele que recebe o tingimento, antes mesmo de ser tecido, o que garante maior durabilidade a peça. ' +
+'Uma de sua vantagens é o corte confortável e moderno, várias possibilidades de combinações e alta durabilidade.',
+dicas: 'Use com calças sociais ou de sarja.',
+comprimento: 'Comprimento de Mangas longas',
+imagem : 'img/social/21_200.png',
+"imagemDetalhe":[{"imgCod":"19","img":"img/social/19.jpg"},{"imgCod":"20","img":"img/social/20.jpg"},{"imgCod":"21","img":"img/social/21.jpg"}]
+},{
+"codigo": 7,
+nome: 'Camisa social',
+"categoria": 'Social',
+preco: 49.00,
+cor: 'rosa',
+"estoque": 15,
+descricao: 'A camisa possui fio tinto e é composta por tecido misto. O fio tinto é aquele que recebe o tingimento, antes mesmo de ser tecido, o que garante maior durabilidade a peça. ' +
+'Uma de sua vantagens é o corte confortável e moderno, várias possibilidades de combinações e alta durabilidade.',
+dicas: 'Use com calças sociais ou de sarja.',
+comprimento: 'Comprimento de Mangas longas',
+imagem : 'img/social/24_200.png',
+"imagemDetalhe":[{"imgCod":"22","img":"img/social/22.jpg"},{"imgCod":"23","img":"img/social/23.jpg"},{"imgCod":"24","img":"img/social/24.jpg"}]
+},{
+"codigo": 8,
+nome: 'Camisa T-shirt',
+"categoria": 'T-shirt',
+preco: 19.00,
+cor: 'azul',
+"estoque": 7,
+descricao: 'A t-shirt cor azul e gola redonda, é uma peça masculina composta por tecido de algodão. Possui mangas curtas,' +
+'portanto é ideal para os dias mais quentes. Sua vantagens: não desbota, fácil transpiração, não amassa e possui alta durabilidade.',
+dicas: 'Use com bermudas, calças jeans ou de sarja',
+comprimento: 'Comprimento de Mangas curtas',
+imagem : 'img/t-shirt/27_200.png',
+"imagemDetalhe":[{"imgCod":"25","img":"img/t-shirt/25.jpg"},{"imgCod":"26","img":"img/t-shirt/26.jpg"},{"imgCod":"27","img":"img/t-shirt/27.jpg"}]
+
+},{
+"codigo": 9,
+nome: 'Camisa T-shirt',
+"categoria": 'T-shirt',
+preco: 19.00,
+cor: 'cinza claro',
+"estoque": 5,
+descricao: 'A t-shirt cor azul e gola redonda, é uma peça masculina composta por tecido de algodão. Possui mangas curtas,' +
+'portanto é ideal para os dias mais quentes. Sua vantagens: não desbota, fácil transpiração, não amassa e possui alta durabilidade.',
+dicas: 'Use com bermudas, calças jeans ou de sarja',
+comprimento: 'Comprimento de Mangas curtas',
+imagem : 'img/t-shirt/30_200.png',
+"imagemDetalhe":[{"imgCod":"28","img":"img/t-shirt/28.jpg"},{"imgCod":"29","img":"img/t-shirt/29.jpg"},{"imgCod":"30","img":"img/t-shirt/30.jpg"}]
+
+},{
+"codigo": 10,
+nome: 'Camisa T-shirt',
+"categoria": 'T-shirt',
+preco: 19.00,
+cor: 'verde água',
+"estoque": 3,
+descricao: 'A t-shirt cor azul e gola redonda, é uma peça masculina composta por tecido de algodão. Possui mangas curtas,' +
+'portanto é ideal para os dias mais quentes. Sua vantagens: não desbota, fácil transpiração, não amassa e possui alta durabilidade.',
+dicas: 'Use com bermudas, calças jeans ou de sarja',
+comprimento: 'Comprimento de Mangas curtas',
+imagem : 'img/t-shirt/33_200.png',
+"imagemDetalhe":[{"imgCod":"31","img":"img/t-shirt/31.jpg"},{"imgCod":"32","img":"img/t-shirt/32.jpg"},{"imgCod":"33","img":"img/t-shirt/33.jpg"}]
+
+},{
+"codigo": 11,
+nome: 'Camisa T-shirt',
+"categoria": 'T-shirt',
+preco: 19.00,
+cor: 'vermelha',
+"estoque": 11,
+descricao: 'A t-shirt cor azul e gola redonda, é uma peça masculina composta por tecido de algodão. Possui mangas curtas,' +
+'portanto é ideal para os dias mais quentes. Sua vantagens: não desbota, fácil transpiração, não amassa e possui alta durabilidade.',
+dicas: 'Use com bermudas, calças jeans ou de sarja',
+comprimento: 'Comprimento de Mangas curtas',
+imagem : 'img/t-shirt/36_200.png',
+"imagemDetalhe":[{"imgCod":"34","img":"img/t-shirt/34.jpg"},{"imgCod":"35","img":"img/t-shirt/35.jpg"},{"imgCod":"36","img":"img/t-shirt/36.jpg"}]
+}
+];
