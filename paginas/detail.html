@@ -1,0 +1,51 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" >
+            <carousel interval="myInterval">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <img ng-src="{{slide.img}}">
+                </slide>
+            </carousel>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h3>{{camisa.nome}} - {{camisa.cor}}</h3>
+                    <p><span>Preço: {{camisa.preco | currency}}</span></p>
+                    <p>{{camisa.estoque}} {{(camisa.estoque==1?'disponível':'disponíveis')}}</p>
+                    <p><button ng-disabled="camisa.estoque==0" ng-click="camisa.estoque = camisa.estoque - 1" class="btn btn-primary">Comprar</button></p>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Características</div>
+                <!-- Table -->
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Categoria</th>
+                        <td>{{camisa.categoria}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Cor</th>
+                        <td>{{camisa.cor}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Dicas</th>
+                        <td>{{camisa.dicas}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Comprimento</th>
+                        <td>{{camisa.comprimento}}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Descrição</th>
+                        <td>{{camisa.descricao}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <p><a href="#/" class="btn btn-default">Voltar</a></p>
+</div>
